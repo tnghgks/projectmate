@@ -16,7 +16,9 @@ export default function Header() {
       margin="auto"
     >
       <Box p="2">
-        <Heading size="md">LOGO</Heading>
+        <Heading size="md">
+          <Link href="/">LOGO</Link>
+        </Heading>
       </Box>
       <HStack gap="2px">
         <IconButton colorScheme="blue" aria-label="See menu" icon={<BellIcon />} />
